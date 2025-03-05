@@ -1,0 +1,11 @@
+{
+  "// COMMENT": "This tsconfig is to enable checking of JS files in `test/**/*` directory",
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "rootDir": "../",
+    "checkJs": true
+  },
+  "include": ["../**/*", "test"],
+  "exclude": ["node_modules/**/*"]
+}

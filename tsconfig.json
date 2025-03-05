@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "lib": ["es2020"],
+    "moduleResolution": "node",
+
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+
+    "isolatedModules": true,
+    "skipDefaultLibCheck": true,
+
+    "noErrorTruncation": true,
+    "typeRoots": ["node_modules/@types"]
+  }
+}
