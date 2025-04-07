@@ -15,10 +15,13 @@ import type {
  * 
  * Request Body will be of type
  *  `{“duration”:number,”platforms”:string[], “genre”:string}`
+ *  `{"duration": 2880,"platforms":["disney","netflix"], "genre":"scifi"}`
  *
  * Response body is a json object of type
  *  `{[service: string]: string[]}`
  * where service is the name of the streaming service and the array is the list of movies
+ *  `{"disney":["Star Wars: A New Hope","Star Wars: Return of the Jedi",...],
+ *    "netflix":["Some movie","Some other movie",...]}`
  */
 export const handler = async (
   event: APIGatewayProxyEvent,
